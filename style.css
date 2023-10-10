@@ -17,6 +17,8 @@
 
 hmtl, body{
     min-height: 100vh;
+    max-width: 100%;
+    height: auto;
     background-color: darkgray;
     font-family: var(--fonte1);
 }
@@ -74,6 +76,8 @@ section.imagem{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
     background-size: cover;
     background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
 }
 section.imagem > p{
     display: inline-block;
@@ -85,10 +89,14 @@ section.imagem > p{
 section#img01{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+    max-width: 100%;
+    height: auto;
 
 }
 section#img02{
     background-image: url(imagens/background002.jpg);
+    max-width: 100%;
+    height: auto;
 }
 .blue:hover{
     color: rgb(3, 47, 104);
